@@ -5,7 +5,7 @@ public class XYZRGBAPoint {
 	public byte r, g, b, a;
 	
 	public XYZRGBAPoint() {
-		
+		this(0, 0, 0, 0, 0, 0, 0);
 	}
 	
 	public XYZRGBAPoint(float x, float y, float z, byte r, byte g, byte b, byte a) {

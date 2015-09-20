@@ -9,6 +9,9 @@ public class HackMITClient {
 	public Client client;
 	
 	public HackMITClient() {
+		/**
+		 * Create a new network client and start it
+		 */
 		this.client = new Client(Registrar.WRITE_BUFFER_SIZE, Registrar.OBJECT_BUFFER_SIZE);
 		Registrar.register(this.client.getKryo());
 		this.client.start();

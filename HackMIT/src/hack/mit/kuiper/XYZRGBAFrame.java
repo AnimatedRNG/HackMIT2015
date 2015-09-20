@@ -11,6 +11,6 @@ public class XYZRGBAFrame {
 	}
 	
 	public void downsample() {
-		
+		/* Implement this! */
 	}
 }
